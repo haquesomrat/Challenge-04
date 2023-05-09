@@ -1,0 +1,37 @@
+@media screen and (min-width: 576px) {
+  /* main styles  */
+  .container {
+    max-width: 1120px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Result Section  */
+  .result-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: grid;
+    place-items: center;
+  }
+
+  /* Result Card  */
+  .result-card {
+    box-shadow: 0 2rem 2rem var(--pale-blue);
+    display: flex;
+  }
+
+  /* result overview */
+  .result-overview {
+    border-radius: 1.5rem;
+    flex-basis: 50%;
+  }
+
+  .result-score {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .result-summary {
+    flex-basis: 50%;
+  }
+}
